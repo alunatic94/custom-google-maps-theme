@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding:12px;
     background:#393E8F;
+
 }
 h1{
     font-family: 'Nunito', sans-serif;
@@ -27,7 +28,10 @@ h1{
     color:white;
     height: 100%;
     width:100%;
-    background: rgba(0, 0, 0, 0.2);
+    background-image:url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 .carousel-container{
     background: rgba(0, 0, 0, 0.5);
