@@ -46,7 +46,7 @@ function initMap(){
         map:map,
         title:"Disneyland",
         icon:{
-            url:"logo.svg",
+            url:"svg/logo.svg",
             scaledSize:new google.maps.Size(250,200)
         }
     });
@@ -59,7 +59,7 @@ function initMap(){
             'Toy Story',
             33.80458278940783,
             -117.92164153068752,
-            "toy-story-rex.svg",
+            "svg/toy-story-rex.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='toystory.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         /*
@@ -75,7 +75,7 @@ function initMap(){
             'Space Mountain',
             33.81099322215978, 
             -117.91749857683718,
-            "disney-castle-monogram.svg",
+            "svg/disney-castle-monogram.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
@@ -83,7 +83,7 @@ function initMap(){
             'Fantasia',
             33.81188357413109, 
             -117.92115403710388,
-            "fantasia.svg",
+            "svg/fantasia.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
@@ -91,7 +91,7 @@ function initMap(){
             'Radiator Springs Racer',
             33.80505666800941, 
             -117.91980093790193,
-            "cars.svg",
+            "svg/cars.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
@@ -99,7 +99,7 @@ function initMap(){
             'Astro Blaster',
             33.81229857317999, 
             -117.91762078824527,
-            "buzz.svg",
+            "svg/buzz.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
@@ -107,7 +107,7 @@ function initMap(){
             'Incredicoaster',
             33.80459720436582, 
             -117.92051687847922,
-            "incredibles.svg",
+            "svg/incredibles.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
@@ -115,7 +115,7 @@ function initMap(){
             'Jumpin Jellyfish',
             33.80591852711783, 
             -117.92259829053314,
-            "ariel.svg",
+            "svg/ariel.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
@@ -123,7 +123,7 @@ function initMap(){
             'Snow Whites Enchanted Wish',
             33.81311153984658, 
             -117.91917398316319,
-            "snowwhite.svg",
+            "svg/snowwhite.svg",
             "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ]
     ];

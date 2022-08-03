@@ -36,8 +36,8 @@ h1{
     align-items: center;
 }
 .carousel-container{
-    background: rgba(0, 0, 0, 0.5);
-    width:850px;
+    background: rgba(2, 1, 1, 0.2);
+    width:950px;
     height:600px;
     position:relative;
     justify-content: center;
