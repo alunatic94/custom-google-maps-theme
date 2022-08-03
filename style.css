@@ -7,10 +7,15 @@ html{
     box-sizing: inherit;
 }
 body{
-    margin: 0;
-    padding:12px;
-    background:#393E8F;
-
+    /*background:#393E8F;*/
+    background-image:url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1{
     font-family: 'Nunito', sans-serif;
@@ -18,28 +23,23 @@ h1{
     font-size: 2rem;
 }
 #map{
-    height: 800px;
-    width:70%;
-    margin:auto;
-    margin-top: 25px;
+    height: 600px;
+    width:600px;
 }
 .wrapper{
-    padding:22px;
     color:white;
-    height: 100%;
-    width:100%;
-    background-image:url("background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    min-height: 110vh;
+    min-width:110%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .carousel-container{
     background: rgba(0, 0, 0, 0.5);
-    width:1300px;
-    height:700px;
+    width:850px;
+    height:600px;
     position:relative;
-    margin:0 auto;
-    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     padding:12px;
