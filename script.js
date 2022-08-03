@@ -14,7 +14,7 @@ next.addEventListener('click', () => {
 })
 
 function nextImage(direction) {
-  if(direction == 'next') {
+  if(direction == 'prev') {
     index++;
     if(index == totalImages) {
       index = 0;
