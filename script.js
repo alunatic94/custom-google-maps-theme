@@ -47,7 +47,7 @@ function initMap(){
         title:"Disneyland",
         icon:{
             url:"svg/logo.svg",
-            scaledSize:new google.maps.Size(250,200)
+            scaledSize:new google.maps.Size(300,250)
         }
     });
       map.addListener('zoom_changed',function(){
@@ -60,7 +60,7 @@ function initMap(){
             33.80458278940783,
             -117.92164153068752,
             "svg/toy-story-rex.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='toystory.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/toystoryentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         /*
         [
@@ -76,7 +76,7 @@ function initMap(){
             33.81099322215978, 
             -117.91749857683718,
             "svg/disney-castle-monogram.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/spacemountainentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
             //33.81188357413109, -117.92115403710388
@@ -84,7 +84,7 @@ function initMap(){
             33.81188357413109, 
             -117.92115403710388,
             "svg/fantasia.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/fantasiaentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
             //33.80505666800941, -117.91980093790193
@@ -92,7 +92,7 @@ function initMap(){
             33.80505666800941, 
             -117.91980093790193,
             "svg/cars.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/carsentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
             //33.81229857317999, -117.91762078824527
@@ -100,7 +100,7 @@ function initMap(){
             33.81229857317999, 
             -117.91762078824527,
             "svg/buzz.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/buzzentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
             //33.80459720436582, -117.92051687847922
@@ -108,7 +108,7 @@ function initMap(){
             33.80459720436582, 
             -117.92051687847922,
             "svg/incredibles.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/incrediblesentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
             //33.80591852711783, -117.92259829053314
@@ -116,7 +116,7 @@ function initMap(){
             33.80591852711783, 
             -117.92259829053314,
             "svg/ariel.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/littlemermaidentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ],
         [
             //33.81311153984658, -117.91917398316319
@@ -124,7 +124,7 @@ function initMap(){
             33.81311153984658, 
             -117.91917398316319,
             "svg/snowwhite.svg",
-            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='castle.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
+            "<div style='background:blue;height:45%;width:45%;'><img style='float:left;height:100%;width:100%;'src='images/snowwhiteentrance.jpg'></div><div style='float:center;margin:5px;'><h2 style='text-align:center;'>Toy Story</h2><p style='text-align:center;'>Hello testing this thing out for a test out tesing out testing out.</p></div>"
         ]
     ];
       
